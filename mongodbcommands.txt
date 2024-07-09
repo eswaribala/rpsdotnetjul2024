@@ -1,0 +1,9 @@
+#to access mongo client
+
+docker exec -it <id> bash
+#mongosh
+show dbs;
+use OrderStore;
+show collections;
+#to access the collection
+db.Orders.find()
